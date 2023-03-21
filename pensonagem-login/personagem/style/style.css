@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Lifecraft';
+    src: url(../../fonts/LifeCraft.ttf) format('truetype');
+}
+
+.row-header{
+    height: 80px;
+    border-bottom: 3px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+    padding: 10px 0;
+}
+
+.row-header > nav > div{
+    width: fit-content;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.8);
+    height: calc(100vh - 140px);
+}
+
+.row-main{
+    height: calc(100vh - 140px);
+    background-image: url("../../images/background/wallpaper-mestre.jpg");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.opcoes-nav{
+    gap: 15px;
+}
+
+.row-main.page-404{
+    background-image: url("/images/background/error-404.jpg");
+    color: white;
+}
+
+.row-main.personagem-home{
+    background-image: url("../../images/background/wallpaper-personagem.jpg");
+    background-position: top;
+}
+
+
+.row-main .titulo{
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-family: 'Lifecraft', sans-serif;
+}
+
+.row-main .titulo.page-404{
+    font-size: 5.5rem;
+    letter-spacing: normal;
+    font-family: inherit;
+}
+
+.row-footer{
+    border-top: 3px black solid;
+    height: 60px;
+    background-image: url("../../images/footer/background-texture-footer.jpg");
+    background-size: cover;
+}
+
+.box-opcoes{
+    height: 45%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#nome{
+    border-radius: 5px;
+    height: 40px;
+    border-color: orange;
+    background-color: transparent;
+    text-align:justify
+}
+#senha{
+    border-radius: 5px;
+    height: 40px;
+    border-color: orange;
+    background-color: transparent;
+}
+
+#botao-submit{
+    background-color: orange;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.box-opcoes > div{
+    justify-content: space-evenly;
+}
+
+.box-opcoes a{
+    font-size: 20px;
+}
+
+.options{
+    gap: 25px;
+}
+
+
+@media (max-width: 1366px){
+    .row-main .titulo.page-404{
+        font-size: 4.5rem;
+    }
+
+    h2.page-404{
+        font-size: 1.8rem;
+    }
+
+    .row-main .titulo{
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
+
+    .box-opcoes {
+        gap: 5px !important;
+    }
+
+    .box-opcoes a{
+        font-size: 14px;
+    }
+
+    .options{
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1280px){
+
+    .row-main .titulo{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+ 
+    .box-opcoes a{
+        font-size: 12px;
+    }
+}
+
