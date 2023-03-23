@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     
     padding: 10px 0;
 }
@@ -72,6 +71,7 @@
     height: 45%;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    box-shadow: 0 15px 25px rgba(0,0,0, 0.6);
 }
 
 ::placeholder{
@@ -79,6 +79,7 @@
 }
 
 #nome{
+    padding-left: 10%;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     border-radius: 7px;
@@ -86,21 +87,51 @@
     height: 40px;
     border-color: orange;
     background-color: transparent;
+    letter-spacing: 1.2px;
+    transition: 0.3s;
 }
-#senha{
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
-    border-radius: 7px;
-    border-width: 1px;
-    height: 40px;
-    border-color: orange;
-    background-color: transparent;
+#nome:hover{
+    letter-spacing: 3px;
+    padding-left: 38%;
+    box-shadow: 0 0 3px orange, 0 0 10px orange;
+    border-color:orange ;
+    font-size: 110%;
 }
 
+
+#senha{
+    padding-left: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 7px;
+    border-width: 1px;
+    height: 40px;
+    border-color: orange;
+    background-color: transparent;
+    letter-spacing: 1.2px;
+    transition: 0.3s;
+}
+#senha:hover{
+    letter-spacing: 3px;
+    padding-left: 37%;
+    box-shadow: 0 0 3px orange, 0 0 10px orange;
+    border-color:orange ;
+    font-size: 110%;
+}
 #botao-submit{
     background-color: orange;
     border-radius: 10px;
+    border-width: 1px;
     height: 45px;
+    transition: 0.8s;
+
+}
+
+#botao-submit:hover{
+    background-color: rgb(201, 131, 1);
+    box-shadow: 0 0 7px rgb(255, 182, 45), 0 0 15px rgb(255, 182, 45), 0 0 30px rgb(255, 182, 45);
+    border-color:rgb(255, 182, 45) ;
+    letter-spacing: 1.5px;
 }
 
 .box-opcoes > div{
