@@ -43,8 +43,8 @@
     color: white;
 }
 
-.row-main.personagem-home{
-    background-image: url("../../images/background/wallpaper-personagem.jpg");
+.row-main.mestre-home{
+    background-image: url("../../images/background/wallpaper-mestre.jpg");
     background-position: top;
 }
 
@@ -74,14 +74,24 @@
     padding-bottom: 5vh;
 }
 
+::placeholder{
+    color:#ff9e44
+}
+
 #nome{
-    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 7px;
+    border-width: 1px;
     height: 40px;
     border-color: orange;
     background-color: transparent;
 }
 #senha{
-    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 7px;
+    border-width: 1px;
     height: 40px;
     border-color: orange;
     background-color: transparent;
