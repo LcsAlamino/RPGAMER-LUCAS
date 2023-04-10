@@ -69,7 +69,7 @@
 .bot-tit{
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: black;
     border: 1px solid black;
     color: white;
     height: 50px;
@@ -82,46 +82,31 @@
 .box-secao{
     background-color: rgb(190, 190, 190);
     border: 1px solid black;
-    padding-left: 10%;
-    padding-right: 10%;
     color: white;
-    height: 150px;
+    height: 150px; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
 }
+
 
 .box-info {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-right: 60%;
 }
 
 .box-info p{
     margin: 0;
+    color: black;
 }
+
 
 .box-info p+p{
     margin-top: 5px;
 }
 
-/* .bot-tit{
-    border: 1px;
-    background-color: black;
-    height: 50px;
-    text-align: center;
-    position: relative;
-    bottom: 180px;
-
-}
-.box-secao{
-    border: 1px;
-    background-color: rgb(211, 210, 210);
-    height: 85px;
-    display: flex;
-} */
-
-/* .box-info{
-    padding-left: 100px;
-    top:100px;
-    left: 100px;
-} */
 
 .box-opcoes > div{
     justify-content: space-evenly;
